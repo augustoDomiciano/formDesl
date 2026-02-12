@@ -1,0 +1,8 @@
+COLUMN TABLE FormDesligado_Mappings (
+  ID INTEGER,
+  event_reason NVARCHAR(5000),
+  contract_type NVARCHAR(5000),
+  has_notice INTEGER,
+  description NVARCHAR(5000),
+  letter_file NVARCHAR(5000)
+)

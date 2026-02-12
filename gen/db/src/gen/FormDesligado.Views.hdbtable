@@ -1,0 +1,4 @@
+COLUMN TABLE FormDesligado_Views (
+  employee_id INTEGER NOT NULL,
+  PRIMARY KEY(employee_id)
+)

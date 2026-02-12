@@ -1,0 +1,21 @@
+COLUMN TABLE Events (
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  ID INTEGER NOT NULL,
+  request_status INTEGER,
+  created_by DATE,
+  employee_id INTEGER,
+  employee_name NVARCHAR(5000),
+  termination_mapping_id INTEGER,
+  efective_date DATE,
+  location NVARCHAR(5000),
+  company_name NVARCHAR(5000),
+  contract_type NVARCHAR(5000),
+  has_notice INTEGER,
+  city NVARCHAR(5000),
+  start_date DATE,
+  notice_date DATE,
+  PRIMARY KEY(ID)
+)

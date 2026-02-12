@@ -1,0 +1,2 @@
+ID,request_status,created_by,employee_id,employee_name,termination_mapping_id,efective_date,location,company_name,contract_type,has_notice,city,start_date,notice_date
+121312,2,2,1,José,1,01/01/1900,Curitiba,empresaTeste,Prazo Indenterminado,,Curitiba,01/01/1900,
